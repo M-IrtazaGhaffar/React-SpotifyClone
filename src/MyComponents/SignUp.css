@@ -1,0 +1,262 @@
+* {
+    font-family: spotify-circular, Circular, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif, Helvetica, Arial, sans-serif;
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+}
+
+button {
+    padding: 1.25% 3%;
+    font-size: 90%;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-radius: 50px;
+    position: relative;
+}
+
+button:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+    transition: all 0.125s ease-in-out;
+}
+
+.center1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.Signup_part1 .Signup_part1_heading h1 {
+    font-size: 175%;
+    font-weight: bolder;
+    padding: 3% 0;
+}
+
+.Signup_btns {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Signup_btns button {
+    padding: 2.5% 3%;
+    width: 400px;
+    font-size: 100%;
+    text-transform: none;
+    margin: 5% 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Signup_btns button svg {
+    width: 20px;
+    height: 20px;
+}
+
+.Signup_btns .btn1 button {
+    background-color: #384f81e0;
+    color: white;
+    border: 2px solid #384f81e0;
+}
+
+.Signup_btns .btn2 button {
+    background-color: white;
+}
+
+.Signup_part2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1%;
+}
+
+.Signup_part2 .Signup_divider {
+    text-align: center;
+    position: absolute;
+    color: gray;
+}
+
+.form form label {
+    font-weight: 600;
+    display: block;
+}
+
+.SignUp_part3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.center4 {
+    width: 400px;
+}
+
+.Signup_part3_heading {
+    text-align: center;
+    margin: 3%;
+    font-size: 125%;
+}
+
+.label {
+    margin: 5% 0;
+}
+
+.form label,
+.form p {
+    margin: 3% 0;
+    font-size: 90%;
+}
+
+.form input,
+.form select {
+    margin: 0;
+    padding: 4%;
+    font-weight: 400;
+    font-size: 100%;
+    width: 100%;
+    border: 0.5px solid rgba(0, 0, 0, 0.705);
+    border-radius: 5px;
+}
+
+.form .DOB input,
+.form .DOB select {
+    width: fit-content;
+    padding: 10PX;
+}
+
+.form .DOB .label {
+    margin: 0%;
+}
+
+.form .DOB {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.form .day {
+    position: relative;
+    top: 2px;
+}
+
+.form .day input {
+    width: 75px;
+    height: 50px;
+}
+
+.form .month select {
+    width: 130px;
+    height: 50px;
+}
+
+.form .year input {
+    width: 115px;
+    height: 50px;
+}
+
+.form .gender {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.form .gender input,
+.form .confirm input {
+    width: fit-content;
+    accent-color: #1ed760;
+}
+
+.form .gender p {
+    padding-left: 12px;
+    padding-right: 24px;
+    position: relative;
+    top: -2px;
+}
+
+.form .confirm {
+    display: flex;
+    align-items: center;
+}
+
+.form .confirm p {
+    padding: 0%;
+    margin: 3%;
+}
+
+.form .signup_btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.form .signup_btn p {
+    font-size: 75%;
+}
+
+.form .signup_btn p a {
+    color: #1ed760;
+}
+
+.form button {
+    padding: 4% 12%;
+    text-transform: none;
+    border: 2px solid #1ed760;
+    background-color: #1ed760;
+}
+
+.towards_login {
+    display: flex;
+    justify-content: center;
+}
+
+.towards_login a {
+    color: #1ed760;
+}
+
+@media all and (max-width: 450px) {
+    .Signup_part1_heading {
+        margin: 3%;
+    }
+    .Signup_btns button {
+        padding: 2.5% 3%;
+        width: 325px;
+        font-size: 100%;
+        text-transform: none;
+        margin: 5% 0;
+    }
+    .form .DOB {
+        display: block;
+    }
+    .form input {
+        width: 100%;
+    }
+    .signup_all {
+        margin: 0 10%;
+    }
+}
+
+@media all and (max-width: 300px) {
+    .Signup_part1_heading {
+        margin: 5% 10%;
+        font-size: 100%;
+    }
+    .Signup_btns button {
+        padding: 2.5% 3%;
+        width: 250px;
+        font-size: 100%;
+        text-transform: none;
+        margin: 5% 0;
+    }
+    .form .DOB {
+        display: block;
+    }
+    .form input {
+        width: 90%;
+    }
+    .signup_all {
+        margin: 0 20%;
+    }
+}
